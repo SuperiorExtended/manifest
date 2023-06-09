@@ -8,7 +8,7 @@
            fetch="https://gitlab.com/" />
 
   <remote name="superior"
-          fetch="https://github.com/SuperiorOS/"
+          fetch="https://github.com/SuperiorExtended/"
           revision="refs/heads/thirteen" />
 
   <remote name="superior-gitlab"
