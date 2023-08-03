@@ -1,8 +1,4 @@
 ---
-<p align="center">
-<img src="https://user-images.githubusercontent.com/66232233/185937884-8363abfa-570a-482a-b911-26ded6d7e01c.jpg" />
-</p>
-
 # Credits:
 
 - [**AOSP**](https://android.googlesource.com)
@@ -11,6 +7,7 @@
 - [**ArrowOS**](https://github.com/ArrowOS)
 - [**Pixys OS**](https://github.com/PixysOS)
 - [**Crdroid Android**](https://github.com/crdroidandroid)
+- [**SuperiorOS**](https://github.com/SuperiorOS)
 
 To get started with the building process, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
