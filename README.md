@@ -23,7 +23,7 @@ To get started with the building process, you'll need to get familiar with [Git 
 # Sync Source:-
 
 ```bash
-    repo init -u https://github.com/SuperiorOS/manifest.git -b thirteen
+    repo init -u https://github.com/SuperiorExtended/manifest.git -b thirteen
 ```
 
 ```bash
@@ -37,23 +37,3 @@ To get started with the building process, you'll need to get familiar with [Git 
   lunch superior_<devicecodename>-userdebug
   m bacon -j$(nproc --all)
 ```
-
----
-
-# Some Links:-
-
-- [**Telegram Public Chat**](https://t.me/superioros)
-- [**Telegram Channel**](https://t.me/superior_os)
-- [**Crowdin**](https://crowdin.com/project/superior-os)
-
----
-
-# Download Stats:-
-
-| Download Source | Total |
-| --- | --- |
-| GitHub Releases | ![GitHub all releases](https://img.shields.io/github/downloads/SuperiorOS-Devices/official_devices/total?logo=GitHub&style=for-the-badge&color=blue) |
-
-| Download Source | Daily | Weekly | Monthly | Total |
-| --- | --- | --- | --- | --- |
-| SourceForge | ![SourceForge](https://img.shields.io/sourceforge/dd/superioros?color=8827ed&logo=sourceforge&logoColor=black&style=for-the-badge) | ![SourceForge](https://img.shields.io/sourceforge/dw/superioros?color=6d1cf6&logo=sourceforge&logoColor=black&style=for-the-badge) | ![SourceForge](https://img.shields.io/sourceforge/dm/superioros?color=4b02a4&logo=sourceforge&logoColor=black&style=for-the-badge) | ![SourceForge](https://img.shields.io/sourceforge/dt/superioros?color=ff4d4d&logo=sourceforge&logoColor=black&style=for-the-badge) |
