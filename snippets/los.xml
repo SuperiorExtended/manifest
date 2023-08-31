@@ -98,5 +98,6 @@
 
   <!-- system repos -->
   <project path="system/qcom" name="android_system_qcom" revision="lineage-20" remote="lineage" />
+  <project path="system/timezone" name="android_system_timezone" revision="lineage-20.0" remote="lineage" />
 
 </manifest>
