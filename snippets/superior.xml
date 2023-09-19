@@ -75,17 +75,17 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="Extended" revision="QPR3" />
   <project path="frameworks/base" name="android_frameworks_base" remote="Extended" revision="QPR3" />
   <project path="frameworks/native" name="android_frameworks_native" remote="Extended" revision="QPR3" />
-  <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="superior" />
+  <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="Extended" revision="QPR3" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="superior" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="superior" />
-  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="superior" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="Extended" revision="QPR3" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="Extended" revision="QPR3" />
 
   <!-- Hardware repos -->
   <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="superior" />
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="superior" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="superior" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="Extended" revision="QPR3" />
-  <project path="hardware/superior/interfaces" name="android_hardware_superior_interfaces" remote="Extended" revision="thirteen"/>
+  <project path="hardware/superior/interfaces" name="android_hardware_superior_interfaces" remote="Extended" revision="QPR3"/>
 
   <!-- Qcom hals -->
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="superior" />
@@ -135,8 +135,8 @@
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="Extended" revision="QPR3" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="Extended" revision="QPR3" />
   <project path="packages/apps/Matlog" name="android_packages_apps_Matlog" remote="superior" />
-  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="superior" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="superior" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="Extended" revision="QPR3" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="Extended" revision="QPR3" />
   <project path="packages/apps/ParallelSpace" name="android_packages_apps_ParallelSpace" remote="Extended" revision="QPR3" />
   <project path="packages/apps/RepainterService" name="android_packages_apps_RepainterService" remote="Extended" revision="QPR3" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="Extended" revision="QPR3" />
@@ -149,20 +149,20 @@
   <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="Extended" revision="QPR3" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="superior" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="superior" />
-  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="superior" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="Extended" revision="QPR3" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="superior" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="Extended" revision="QPR3" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="superior" />
   <project path="packages/overlays/Themes" name="android_packages_overlays_Themes" remote="Extended" revision="QPR3" />
   <project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="Extended" revision="QPR3" />
-  <project path="packages/resources/ThemedIcons" name="android_packages_resources_ThemedIcons" remote="superior">
+  <project path="packages/resources/ThemedIcons" name="android_packages_resources_ThemedIcons" remote="Extended" revision="QPR3">
     <linkfile src="res" dest="packages/apps/Launcher3/res-icons" />
   </project>
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="superior" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="superior" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="Extended" revision="QPR3" /> 
     <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="Extended" revision="QPR3" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="Extended" revision="QPR3" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="superior" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="Extended" revision="QPR3" />
 
   <!-- Prebuilt repos -->
   <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" remote="superior" clone-depth="1" />
