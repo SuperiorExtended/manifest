@@ -22,8 +22,8 @@
   <remote  name="Extended"
            fetch="https://github.com/SuperiorExtended/" />
   
-  <remote  name="arrow"
-           fetch="https://gitlab.com/arrowos-project/" />
+  <remote  name="Extended-gitlab"
+           fetch="https://gitlab.com/superior-extended/" />
 
   <!-- Build repos -->
   <project path="build/make" name="android_build" remote="Extended" revision="QPR3" >
@@ -117,7 +117,7 @@
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="superior" />
 
   <!-- Vendor repos -->
-  <project path="vendor/gapps" name="android_vendor_gapps" remote="arrow" revision="arrow-13.1" clone-depth="1" />
+  <project path="vendor/gapps" name="android_vendor_gapps" remote="Extended-gitlab" revision="QPR3" clone-depth="1" />
   <project path="vendor/superior" name="android_vendor_superior" remote="Extended" revision="QPR3" />
   <project path="vendor/support" name="android_vendor_support" remote="Extended" revision="QPR3" />
   <project path="vendor/prebuilts" name="android_vendor_prebuilts" remote="Extended" revision="QPR3" />
