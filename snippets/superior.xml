@@ -86,6 +86,7 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="superior" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="Extended" revision="QPR3" />
   <project path="hardware/superior/interfaces" name="android_hardware_superior_interfaces" remote="Extended" revision="QPR3"/>
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Extended" revision="QPR3"/>
 
   <!-- Qcom hals -->
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="superior" />
