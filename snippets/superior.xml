@@ -153,7 +153,7 @@
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="Extended" revision="QPR3" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="superior" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="Extended" revision="QPR3" />
-  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="superior" />
+  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="Extended" revision="QPR3" />
   <project path="packages/overlays/Themes" name="android_packages_overlays_Themes" remote="Extended" revision="QPR3" />
   <project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="Extended" revision="QPR3" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="superior" />
