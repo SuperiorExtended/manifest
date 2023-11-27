@@ -83,6 +83,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="superior" />
+  <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="superior" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="superior" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="superior" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="superior" />
