@@ -8,6 +8,13 @@
     fetch="https://github.com/SuperiorOS/"
     revision="refs/heads/fourteen" />
 
+  <remote name="Extended"
+    fetch="https://github.com/SuperiorExtended/"
+    revision="refs/heads/UDC" />
+
+  <remote name="Extended-gitlab"
+           fetch="https://gitlab.com/superior-extended/" />
+
   <remote name="superior-gitlab"
     fetch="https://gitlab.com/superioros"
     revision="refs/heads/fourteen" />
@@ -17,7 +24,7 @@
     revision="refs/heads/fourteen" />
 
   <!-- Build -->
-  <project path="build/make" name="android_build" remote="superior">
+  <project path="build/make" name="android_build" remote="Extended">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -26,31 +33,31 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="android_build_soong" remote="superior" >
+  <project path="build/soong" name="android_build_soong" remote="Extended" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="art" name="android_art" remote="superior" />
-  <project path="bionic" name="android_bionic" remote="superior" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="superior" />
-  <project path="libcore" name="android_libcore" remote="superior" />
+  <project path="art" name="android_art" remote="Extended" />
+  <project path="bionic" name="android_bionic" remote="Extended" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="Extended" />
+  <project path="libcore" name="android_libcore" remote="Extended" />
 
   <!-- Device -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="superior" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="superior" />
-  <project path="device/superior/sepolicy" name="android_device_superior_sepolicy" remote="superior" />
+  <project path="device/superior/sepolicy" name="android_device_superior_sepolicy" remote="Extended" />
 
   <!-- Framework -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="superior" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="superior" />
-  <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="superior" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="superior" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="Extended" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="Extended" />
+  <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="Extended" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="Extended" />
 
   <!-- Hardware -->
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="superior" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="Extended" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="superior" />
-  <project path="hardware/superior/interfaces" name="android_hardware_superior_interfaces" remote="superior" />
+  <project path="hardware/superior/interfaces" name="android_hardware_superior_interfaces" remote="Extended" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="superior" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -77,52 +84,57 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
   </project>
-  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="fourteen-caf-sm8150" remote="superior" />
-  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sm8150" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="lineage-19.1-caf-sm8150" remote="lineage" />
 
   <!-- Packages -->
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="superior" />
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="superior" />
-  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="superior" />
-  <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="superior" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="superior" />
-  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="superior" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="superior" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="superior" />
-  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="superior" />
-  <project path="packages/apps/SuperiorLab" name="android_packages_apps_SuperiorLab" remote="superior" />
-  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="superior" />
-  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="superior" />
-  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="superior" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="Extended" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="Extended" />
+  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="Extended" />
+  <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="Extended" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="Extended" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="Extended" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="Extended" />
+  <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="Extended-gitlab" revision="fourteen" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="Extended" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="Extended" />
+  <project path="packages/apps/SuperiorLab" name="android_packages_apps_SuperiorLab" remote="Extended" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="Extended" />
+  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="Extended" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="superior" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="superior" />
-  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="superior" />
-  <project path="packages/overlays/Themes" name="android_packages_overlays_Themes" remote="superior" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="superior" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="superior" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="Extended" />
+  <project path="packages/overlays/Themes" name="android_packages_overlays_Themes" remote="Extended" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="Extended" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="Extended" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="Extended" revision="UDC"/>
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="Extended" revision="UDC"/>
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="Extended" revision="UDC"/>
 
   <!-- External -->
   <project path="external/cronet" name="android_external_cronet" remote="superior" />
-  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="superior" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="Extended" />
   <project path="external/mksh" name="android_external_mksh" remote="superior" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="superior" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="superior" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="superior" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="Extended" />
 
   <!-- System -->
-  <project path="system/bpf" name="android_system_bpf" remote="superior" />
-  <project path="system/core" name="android_system_core" remote="superior" />
-  <project path="system/libhidl" name="android_system_libhidl" remote="superior" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="superior" />
-  <project path="system/update_engine" name="android_system_update_engine" remote="superior" />
+  <project path="system/bpf" name="android_system_bpf" remote="Extended" />
+  <project path="system/core" name="android_system_core" remote="Extended" />
+  <project path="system/extras" name="android_system_extras" remote="Extended" />
+  <project path="system/libhidl" name="android_system_libhidl" remote="Extended" />
+  <project path="system/libhwbinder" name="android_system_libhwbinder" remote="Extended" />
+  <project path="system/security" name="android_system_security" remote="Extended" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="Extended" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="Extended" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="Extended" />
+  <project path="system/vold" name="android_system_vold" remote="Extended" />
 
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="superior" />
   <project path="vendor/gms" name="android_vendor_gms" remote="superior-gitlab" clone-depth="1" />
   <project path="vendor/prebuilts" name="android_vendor_prebuilts" remote="superior" />
   <project path="vendor/prebuilts-superior" name="android_vendor_prebuilts-superior" remote="superior-gitlab" />
-  <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
-  <project path="vendor/support" name="android_vendor_support" remote="superior" />
+  <project path="vendor/superior" name="android_vendor_superior" remote="Extended" />
+  <project path="vendor/support" name="android_vendor_support" remote="Extended" />
   <project path="vendor/SystemUIClocks" name="android_vendor_SystemUIClocks" remote="superior-gitlab" />
 </manifest>
