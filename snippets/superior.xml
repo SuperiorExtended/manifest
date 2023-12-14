@@ -93,24 +93,24 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="Extended" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="Extended" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="Extended" />
+  <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="Extended" />
   <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="Extended-gitlab" revision="fourteen" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="Extended" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="Extended" />
   <project path="packages/apps/SuperiorLab" name="android_packages_apps_SuperiorLab" remote="Extended" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="Extended" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="Extended" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="superior" />
-  <project path="packages/modules/adb" name="android_packages_modules_adb" remote="superior" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="Extended" />
+  <project path="packages/modules/adb" name="android_packages_modules_adb" remote="Extended" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="Extended" />
   <project path="packages/overlays/Themes" name="android_packages_overlays_Themes" remote="Extended" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="Extended" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="Extended" />
-  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="Extended" revision="UDC"/>
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="Extended" revision="UDC"/>
-  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="Extended" revision="UDC"/>
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="Extended" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="Extended" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="Extended" />
 
   <!-- External -->
-  <project path="external/cronet" name="android_external_cronet" remote="superior" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="Extended" />
   <project path="external/mksh" name="android_external_mksh" remote="superior" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="superior" />
@@ -132,7 +132,7 @@
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="superior" />
   <project path="vendor/gms" name="android_vendor_gms" remote="superior-gitlab" clone-depth="1" />
-  <project path="vendor/prebuilts" name="android_vendor_prebuilts" remote="superior" />
+  <project path="vendor/prebuilts" name="android_vendor_prebuilts" remote="Extended" />
   <project path="vendor/prebuilts-superior" name="android_vendor_prebuilts-superior" remote="superior-gitlab" />
   <project path="vendor/superior" name="android_vendor_superior" remote="Extended" />
   <project path="vendor/support" name="android_vendor_support" remote="Extended" />
