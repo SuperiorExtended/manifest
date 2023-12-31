@@ -106,6 +106,7 @@
   <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware"/>
   <remove-project name="platform/hardware/qcom/wlan"/>
+  <remove-project name="platform/hardware/qcom/audio"/>
   <remove-project name="platform/hardware/interfaces"/>
 
   <!-- Packages -->
