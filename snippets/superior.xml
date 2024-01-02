@@ -93,11 +93,13 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="Extended" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="Extended" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="Extended" />
-  <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="Extended" />
+  <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="Extended" revision="QPR3" />
   <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="Extended-gitlab" revision="fourteen" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="Extended" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="Extended" />
   <project path="packages/apps/SuperiorLab" name="android_packages_apps_SuperiorLab" remote="Extended" />
+  <project path="packages/apps/RepainterServicePriv" name="android_packages_apps_RepainterService" remote="Extended" />
+  <project path="packages/apps/SupExtendedWallpaperStub" name="android_packages_apps_SupExtendedWallpaperStub" remote="Extended" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="Extended" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="Extended" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="Extended" />
@@ -106,7 +108,7 @@
   <project path="packages/overlays/Themes" name="android_packages_overlays_Themes" remote="Extended" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="Extended" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="Extended" />
-  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="Extended" />
+  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="Extended" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="Extended" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="Extended" />
 
