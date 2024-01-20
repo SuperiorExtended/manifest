@@ -97,16 +97,27 @@
 
   <!-- External -->
   <remove-project name="platform/external/cronet" />
+  <remove-project name="platform/external/dtc" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress"/>
   <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/libnl" />
   <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/zstd" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware"/>
-  <remove-project name="platform/hardware/qcom/wlan"/>
-  <remove-project name="platform/hardware/qcom/audio"/>
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/interfaces"/>
 
   <!-- Packages -->
@@ -135,6 +146,7 @@
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/libhwbinder" />
+  <remove-project name="platform/system/media" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy"/>
   <remove-project name="platform/system/tools/mkbootimg" />

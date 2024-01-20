@@ -115,13 +115,6 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="Extended" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="Extended" />
 
-  <!-- External -->
-  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="Extended" />
-  <project path="external/mksh" name="android_external_mksh" remote="superior" />
-  <project path="external/tinyxml" name="android_external_tinyxml" remote="superior" />
-  <project path="external/libcxx" name="android_external_libcxx" remote="superior" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="Extended" />
-
   <!-- System -->
   <project path="system/bpf" name="android_system_bpf" remote="Extended" />
   <project path="system/core" name="android_system_core" remote="Extended" />
