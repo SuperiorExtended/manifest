@@ -56,6 +56,7 @@
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="Extended" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Extended" revision="UDC" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="superior" />
   <project path="hardware/superior/interfaces" name="android_hardware_superior_interfaces" remote="Extended" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="superior" >
@@ -135,7 +136,7 @@
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="superior" />
   <project path="vendor/certification" name="android_vendor_certification" remote="superior-gitlab" />
-  <project path="vendor/gms" name="android_vendor_gms" remote="superior-gitlab" clone-depth="1" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="Extended-gitlab" revision="UDC" clone-depth="1" />
   <project path="vendor/prebuilts" name="android_vendor_prebuilts" remote="Extended" />
   <project path="vendor/prebuilts-superior" name="android_vendor_prebuilts-superior" remote="superior-gitlab" />
   <project path="vendor/superior" name="android_vendor_superior" remote="Extended" />
