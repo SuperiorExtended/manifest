@@ -13,15 +13,15 @@
     revision="refs/heads/UDC" />
 
   <remote name="Extended-gitlab"
-           fetch="https://gitlab.com/superior-extended/" />
+    fetch="https://gitlab.com/superior-extended/" />
 
   <remote name="superior-gitlab"
     fetch="https://gitlab.com/superioros"
     revision="refs/heads/fourteen" />
 
-  <remote name="SuperiorOS-Devices"
-    fetch="https://github.com/SuperiorOS-Devices"
-    revision="refs/heads/fourteen" />
+  <remote name="Extended-Devices"
+    fetch="https://github.com/SuperiorExtended-Devices"
+    revision="refs/heads/UDC" />
 
   <!-- Build -->
   <project path="build/make" name="android_build" remote="Extended">
