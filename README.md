@@ -26,15 +26,11 @@ To get started with the building process, you'll need to get familiar with [Git 
 # Sync Source:-
 
 ```bash
-repo init --no-repo-verify -u https://github.com/SuperiorExtended/manifest -b UDC -g default,-mips,-darwin,-notdefault
-```
-- If you don't care about commit history and want to save some space then:-
-```bash
-repo init --depth=1 --no-repo-verify -u https://github.com/SuperiorExtended/manifest -b UDC -g default,-mips,-darwin,-notdefault
+repo init -u https://github.com/SuperiorExtended/manifest -b UDC --git-lfs
 ```
 
 ```bash
-repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$(nproc --all)
+repo sync --force-sync
 ```
 
 # Start the build:-
@@ -42,7 +38,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 ```bash
   . build/envsetup.sh
   lunch superior_<devicecodename>-<buildtype>
-  mka bacon -j$(nproc --all)
+  mka bacon
 ```
 
 ---
