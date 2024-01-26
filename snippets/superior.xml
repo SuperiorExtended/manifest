@@ -135,4 +135,5 @@
   <project path="vendor/prebuilts-superior" name="android_vendor_prebuilts-superior" remote="superior-gitlab" />
   <project path="vendor/superior" name="android_vendor_superior" remote="Extended" />
   <project path="vendor/support" name="android_vendor_support" remote="Extended" />
+  <project path="vendor/pixel-framework" name="android_vendor_pixel-framework" remote="Extended" />
 </manifest>
