@@ -108,6 +108,7 @@
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="Extended" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="Extended" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="Extended" />
+  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="Extended" />
   <project path="packages/overlays/Themes" name="android_packages_overlays_Themes" remote="Extended" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="Extended" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="Extended" />
