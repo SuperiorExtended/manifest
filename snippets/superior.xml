@@ -113,6 +113,7 @@
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="Extended" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="Extended" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="Extended" />
+  <project path="packages/apps/OmniStyles" name="packages_apps_OmniStyle" remote="Extended" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="Extended" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="Extended" />
 
@@ -130,11 +131,14 @@
 
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="superior" />
-  <project path="vendor/certification" name="android_vendor_certification" remote="Extended-gitlab" revision="fourteen" />
   <project path="vendor/gapps" name="vendor_gapps" remote="Extended-gitlab" revision="UDC" clone-depth="1" />
   <project path="vendor/prebuilts" name="android_vendor_prebuilts" remote="Extended" />
   <project path="vendor/prebuilts-superior" name="android_vendor_prebuilts-superior" remote="superior-gitlab" />
   <project path="vendor/superior" name="android_vendor_superior" remote="Extended" />
   <project path="vendor/support" name="android_vendor_support" remote="Extended" />
   <project path="vendor/pixel-framework" name="android_vendor_pixel-framework" remote="Extended" />
+
+  <!-- Fading Layout -->
+  <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="Extended" />
+
 </manifest>
