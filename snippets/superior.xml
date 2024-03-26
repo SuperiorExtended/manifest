@@ -155,7 +155,7 @@
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="Extended" revision="QPR3" />
   <project path="packages/overlays/Themes" name="android_packages_overlays_Themes" remote="Extended" revision="QPR3" />
   <project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="Extended" revision="QPR3" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="superior" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="Extended" revision="QPR3" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="Extended" revision="QPR3" /> 
     <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="Extended" revision="QPR3" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="Extended" revision="QPR3" />
